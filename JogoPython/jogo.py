@@ -6,10 +6,10 @@ from random import randint
 pygame.init()
 
 pygame.mixer.music.set_volume(0.08)
-musica_fundo = pygame.mixer.music.load('BoxCat Games - Inspiration.mp3')
+musica_fundo = pygame.mixer.music.load('/home/joao/JogoPython/sons/BoxCat Games - Inspiration.mp3')
 pygame.mixer.music.play(-1)
 
-som_colisao = pygame.mixer.Sound('smw_coin.wav')
+som_colisao = pygame.mixer.Sound('/home/joao/JogoPython/sons/smw_coin.wav')
 som_colisao.set_volume(0.09)
 
 largura = 640
